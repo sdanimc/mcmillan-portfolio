@@ -1,0 +1,44 @@
+:root {
+    --charcoal: rgb(27, 26, 27);
+    --purple: rgb(134, 58, 205);
+}
+
+body {
+    background-color: var(--charcoal);
+    
+}
+
+header {
+    background-color: var(--purple);
+    padding: 1%;
+}
+
+h1 {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 4px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+main{
+    padding: 1rem;
+  }
+  
+ section #work {  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.work-example{
+    border: 3px solid var(--purple);
+}
