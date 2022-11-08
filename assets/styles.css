@@ -1,10 +1,11 @@
+/*Full Page Selectors*/
 :root {
     --charcoal: rgb(27, 26, 27);
     --blue: rgb(61, 61, 253);
 }
 
 * {
-    margin: 5px;
+    margin: 10px;
 }
 
 body {
@@ -13,26 +14,37 @@ body {
     text-align: center;
 }
 
-header {
-    background-color: var(--blue);
-    padding: 1%;
-    text-align: left;
-}
-
 a {
     text-decoration: none;
-}
-
-h1 {
-    display: inline-block;
-
+    color: var(--blue);
 }
 
 p {
     color: var(--blue);
 }
-h2{
+
+h2 {
     color: rgb(231 199 28);
+}
+
+h3 {
+    color: var(--blue);
+}
+
+img {
+    max-width: 95%;
+}
+
+/*Header elements*/
+header {
+    background-color: var(--blue);
+    padding: 1.5%;
+    text-align: left;
+}
+
+h1 {
+    display: inline-block;
+    font-size: large;
 }
 
 nav {
@@ -49,6 +61,7 @@ li a {
     color: black;
 }
 
+/* Content */
 main {
     padding: 1rem;
 }
@@ -68,18 +81,11 @@ main {
 
 }
 
-h3 {
-    color: var(--blue);
-}
-
 #first-ex {
     min-width: 98%;
 }
 
-img {
-    max-width: 95%;
-}
-
+/*Responsive Design Settings*/
 @media screen and (max-width: 767px) {
     .work-example {
         flex: 0 0 100%;
