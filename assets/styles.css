@@ -1,6 +1,6 @@
 :root {
     --charcoal: rgb(27, 26, 27);
-    --purple: rgb(134, 58, 205);
+    --blue: rgb(61, 61, 253);
 }
 
 * {
@@ -14,8 +14,9 @@ body {
 }
 
 header {
-    background-color: var(--purple);
+    background-color: var(--blue);
     padding: 1%;
+    text-align: left;
 }
 
 a {
@@ -24,6 +25,14 @@ a {
 
 h1 {
     display: inline-block;
+
+}
+
+p {
+    color: var(--blue);
+}
+h2{
+    color: rgb(231 199 28);
 }
 
 nav {
@@ -50,12 +59,17 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 
+
 }
 
 .work-example {
-    border: 3px solid var(--purple);
+    border: 3px solid var(--blue);
     text-decoration: none;
-    color: var(--purple);
+
+}
+
+h3 {
+    color: var(--blue);
 }
 
 #first-ex {
@@ -93,6 +107,6 @@ img {
 
 @media screen and (max-width: 536px) {
     li a {
-        color: var(--purple);
+        color: var(--blue);
     }
 }
