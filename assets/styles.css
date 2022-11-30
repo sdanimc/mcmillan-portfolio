@@ -78,7 +78,7 @@ main {
 .work-example {
     border: 3px solid var(--blue);
     text-decoration: none;
-
+    display: inline-flex;
 }
 
 #first-ex {
